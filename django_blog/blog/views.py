@@ -12,7 +12,7 @@ def home(request):
 def about(request):
     context={
         'title': "About Page",
-        'posts' : posts
+       
     }
     return render(request,'blog/about.html',context)
 
